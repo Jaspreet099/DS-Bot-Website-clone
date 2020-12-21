@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+body{
+   background-color: #5200BB;
+}
+#header{
+    background: none;
+   overflow: hidden;
+   padding: 1.5em;
+}
+#options{
+    float: right;
+    margin-right: 3em;
+    margin-top: 2em;
+}
+.nav-elements-purple{
+   color: white;
+   text-decoration: none;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   margin-left: 3em;
+   padding: 1em;
+   width: 30%;
+   border-radius: 100px;
+   transition: 0.4s ease-in-out;
+   
+}
+.nav-elements-purple:hover{
+   color: white;
+   background-color: #5200BB;
+   box-shadow:  0 0px  #292424, 0 0 20px  #5200BB;
+}
+.nav-elements{
+    color: white;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 3em;
+    padding: 1em;
+    width: 30%;
+    border-radius: 100px;
+    transition: 0.4s ease-in-out;
+    
+}
+.nav-elements:hover{
+   
+   color: white;
+   background-color:rgb(175, 0, 152) ;
+   box-shadow:  0 0px  #292424, 0 0 20px  rgb(175, 0, 152)  ;
+}
+.main{
+    margin-left: 6em;
+    margin-top: 3em;
+}
+#logo-text{
+    color: white;
+    font-size: medium;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#heading{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    width: 30%;
+}
+#description{
+   color: white;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 15px;
+   font-style:normal;
+   width: 30%;
+   text-align: justify;
+}
+.button{
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 20px;
+   margin-top: 4em;
+   
+}
+.btn-purple{
+   text-decoration: none;
+   color: white;
+   background-color: #5200BB;
+   padding: 1em;
+   width: 30%;
+   border-radius: 100px;
+   margin-right: 4em;
+   transition: 0.4s ease-in-out;
+}
+.btn-white{
+   text-decoration: none;
+   color: #5200BB;
+   background-color: white;
+   padding: 1em;
+   width: 30%;
+   border-radius: 100px;
+   transition: 0.4s ease-in-out;
+
+}
+.btn-white:hover{
+   
+   box-shadow:  0 0px #ffffff, 0 0 20px #ffffff, 0 0 20px #2d3055;
+}
+.btn-purple:hover{
+
+   box-shadow:  0 0px #ffffff, 0 0 20px  #5200BB, 0 0 20px#554b63;
+}
+
